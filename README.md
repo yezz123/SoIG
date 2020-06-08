@@ -1,0 +1,2 @@
+# SoIG
+Instagram OSINT Tool.
