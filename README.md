@@ -4,10 +4,10 @@
 <p align="center"><img src="https://img.shields.io/badge/Version-1.0-brightgreen"></p>
 
 <p align="center">
-  <a href="https://github.com/th3unkn0n">
+  <a href="https://github.com/yezz123">
     <img src="https://img.shields.io/github/followers/yezz123?label=Follow&style=social">
   </a>
-  <a href="https://github.com/th3unkn0n/osi.ig/stargazers">
+  <a href="https://github.com/yezz123/SoIG/stargazers">
     <img src="https://img.shields.io/github/stars/yezz123/SoIG?style=social">
   </a>
 </p>
