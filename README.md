@@ -1,17 +1,17 @@
 <p align="center">
   <img width="480" height="480" src="https://user-images.githubusercontent.com/52716203/84056156-be939200-a9ad-11ea-8897-2a9827f3bea4.gif">
 </p>
-<p align="center"><img src="https://img.shields.io/badge/Version-1.0-brightgreen"></p>
 
 <p align="center">
-  <a href="https://github.com/yezz123">
-    <img src="https://img.shields.io/github/followers/yezz123?label=Follow&style=social">
-  </a>
-  <a href="https://github.com/yezz123/SoIG/stargazers">
-    <img src="https://img.shields.io/github/stars/yezz123/SoIG?style=social">
-  </a>
+   <img src="https://img.shields.io/badge/Dev-Yezz123-green?style"/>
+   <img src="https://img.shields.io/github/license/yezz123/SoIG"/>
+   <img src="https://img.shields.io/github/stars/yezz123/SoIG"/>
+   <img src="https://img.shields.io/github/forks/yezz123/SoIG"/>
+   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+   <img src="https://visitor-badge.laobi.icu/badge?page_id=yezz123.Pretty-Readme">
 </p>
 
+# Overview 🤯:
 * The Instagram OSINT Tool gets a range of information from an Instagram account that you normally wouldn't be able to get
 from just looking at their profile
 
@@ -23,7 +23,7 @@ from just looking at their profile
 
 * [ posts ] : accessability caption, location, timestamp, comments disabled, Caption, picture url
 
-## • How To Install
+## How To Install 👽:
 
 `$ pkg install -y git`
 
@@ -31,7 +31,7 @@ from just looking at their profile
 
 `$ chmod +x install.sh && ./install.sh`
 
-## • Usage
+## Usage 🐍:
 
 `$ python3 main.py -u username`
 
@@ -51,6 +51,8 @@ from just looking at their profile
 `  -s, --savedata        save data to file `
 `                        ( save profile pic, info , post info )`
 
+## Contributing ⭐ :
+Contributions are welcome! ♥! Please share any features, and add unit tests! Use the pull request and issue systems to contribute.
 
 <p align="center">
   Follow Me On
