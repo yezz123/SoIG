@@ -54,6 +54,9 @@ from just looking at their profile
 ## Contributing ⭐ :
 Contributions are welcome! ♥! Please share any features, and add unit tests! Use the pull request and issue systems to contribute.
 
+## Disclaimer  :
+This project can only be used for educational purposes. Using this software against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+
 <p align="center">
   Follow Me On
 </p>
