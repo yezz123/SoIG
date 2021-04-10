@@ -1,8 +1,4 @@
 #!/bin/env python3
-# -*- coding: utf-8 -*-
-# Copyright 2020 Yasser Tahiri
-# All Rights Reserved.
-#
 
 import time
 import json
@@ -51,8 +47,8 @@ class extra():
   ╚═╗ ║ ║     ║  ║ ╦
   ╚═╝ ╚═╝  {gr}o{cy}  ╩  ╚═╝
  
-        {gr}Code By :
-  {gr}instagram.com/sadnessvibewithbadeffect{nu}
+        {gr}Coded By :
+  {gr}Yezz123{nu}
 	            """)
 
 class main():
@@ -117,7 +113,6 @@ class main():
 			if o == 5:
 				break
 		print("")
-
 	def print_data(self):
 		os.system("clear")
 		extra.banner()
