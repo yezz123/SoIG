@@ -1,71 +1,84 @@
-<p align="center">
-  <img width="480" height="480" src="https://user-images.githubusercontent.com/52716203/84056156-be939200-a9ad-11ea-8897-2a9827f3bea4.gif">
-</p>
+![SoIG](.github/header.svg)
 
-<p align="center">
-   <img src="https://img.shields.io/badge/Dev-Yezz123-green?style"/>
-   <img src="https://img.shields.io/github/license/yezz123/SoIG"/>
-   <img src="https://img.shields.io/github/stars/yezz123/SoIG"/>
-   <img src="https://img.shields.io/github/forks/yezz123/SoIG"/>
-   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
-   <img src="https://visitor-badge.laobi.icu/badge?page_id=yezz123.Pretty-Readme">
-</p>
+# SoIG
 
-# Overview 🤯:
-* The Instagram OSINT Tool gets a range of information from an Instagram account that you normally wouldn't be able to get
-from just looking at their profile
+The Instagram OSINT Tool gets a range of information from an Instagram account that you normally wouldn't be able to get from just looking at their profile.
 
-* The information includes:
+## Getting Started
 
-* [ profile ] : Username, Profile Name, URL, Followers, Following, Number of Posts, Bio, Profile Picture URL, Is Business Account , Connected to a FB account , External URL, Joined Recently , Business Category Name, Is private , Is Verified ,
+**The information includes**:
 
-* [ tags ] : most used , and by -t all used tags
+- **profile** : Username, Profile Name, URL, Followers, Following, Number of Posts, Bio, Profile Picture URL, Is Business Account , Connected to a FB account , External URL, Joined Recently , Business Category Name, Is private , Is Verified.
 
-* [ posts ] : accessability caption, location, timestamp, comments disabled, Caption, picture url
+- **tags** : most used , and by `-t` all used tags.
 
-## How To Install 👽:
+- **posts** : accessability caption, location, timestamp, comments disabled, Caption, picture url.
 
-`$ pkg install -y git`
+### Prerequisites
 
-`$ git clone https://github.com/yezz123/SoIG.git && cd SoIG`
+- Python 3 or higher.
+- Linux OS ex. Ubuntu or Kali Linux.
 
-`$ chmod +x install.sh && ./install.sh`
+### Project setup
 
-## Usage 🐍:
+```sh
+# clone the repo
+$ git clone https://github.com/yezz123/SoIG
 
-`$ python3 main.py -u username`
+# move to the project folder
+$ cd SoIG
+```
 
-`$ python3 main.py -h`
+### Creating virtual environment
 
-`usage: main.py [-h] -u USERNAME [-p] [-s]`
+- Install `pipenv` a global python project `pip install pipenv`
+- Create a `virtual environment` for this project
 
-`optional arguments:`
+```shell
+# creating pipenv environment for python 3
+$ pipenv --three
 
-`  -h, --help            show this help message and exit`
+# activating the pipenv environment
+$ pipenv shell
 
-`  -u USERNAME, --username USERNAME`
-`                        username of account to scan`
+# if you have multiple python 3 versions installed then
+$ pipenv install -d --python 3.8
 
-`  -p, --postscrap       scrape all uploaded images info`
+# install all dependencies (include -d for installing dev dependencies)
+$ pipenv install -d
+```
 
-`  -s, --savedata        save data to file `
-`                        ( save profile pic, info , post info )`
+### Running the Application
 
-## Contributing ⭐ :
-Contributions are welcome! ♥! Please share any features, and add unit tests! Use the pull request and issue systems to contribute.
+- You can run the `Main.py` file Manually. 
 
-## Disclaimer  :
-This project can only be used for educational purposes. Using this software against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+```sh
+# Running the application if you use python
+$ python main.py
 
-<p align="center">
-  Follow Me On
-</p>
-<p align="center">
-    <a href="https://yassertahiri.medium.com/">
-    <img alt="Medium" src="https://img.shields.io/badge/Medium%20-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a>
-    <a href="https://twitter.com/THyasser1">
-    <img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"</a>
-    <a href="https://discord.gg/crNvkTYPYG">
-    <img alt="Discord" src="https://img.shields.io/badge/Discord%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a>
-</p>
-<p align="center"> <a href="https://www.buymeacoffee.com/tahiri" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a> <p>
+## Running the application if you use Python3 
+$ python3 main.py
+```
+
+## Usage
+
+A simple workflow of command used to run SoIG with a Description.
+
+| Usage                                    | Description                                               |
+| -----------------------------------------| ----------------------------------------------------------|
+| `-h` , `--help`                          |  show this help message and exit.                         |
+| `-u` USERNAME , `--username` USERNAME    | username of account to scan.                              |
+| `-p` , `--postscrap`                     | scrape all uploaded images info.                          |
+| `-s` , `--savedata`                      | save data to file ( save profile pic, info , post info ). |
+
+## Contributing
+
+- Join the SoIG Creator and Contribute to the Project if you have any enhancement or add-ons to create a good and Secure Project, Help any User to Use it in a good and simple way.
+
+### Disclaimer
+
+- This project can only be used for educational purposes. Using this software against target systems without prior permission is illegal, and any damages from misuse of this software will not be the responsibility of the author.
+
+## License
+
+This project is licensed under the terms of the [MIT license](LICENSE).
