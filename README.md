@@ -31,32 +31,25 @@ $ cd SoIG
 
 ### Creating virtual environment
 
-- Install `pipenv` a global python project `pip install pipenv`
-- Create a `virtual environment` for this project
+- Create a virtual environment using virtualenv.
 
 ```shell
-# creating pipenv environment for python 3
-$ pipenv --three
+# creating virtual environment
+$ virtualenv venv
 
-# activating the pipenv environment
-$ pipenv shell
+# activate virtual environment
+$ source venv/bin/activate
 
-# if you have multiple python 3 versions installed then
-$ pipenv install -d --python 3.8
-
-# install all dependencies (include -d for installing dev dependencies)
-$ pipenv install -d
+# install all dependencies
+$ pip install -r requirements.txt
 ```
 
 ### Running the Application
 
-- You can run the `Main.py` file Manually. 
+- You can run the `main.py` file Manually.
 
 ```sh
-# Running the application if you use python
-$ python main.py
-
-## Running the application if you use Python3 
+# Running the Script
 $ python3 main.py
 ```
 
@@ -64,12 +57,12 @@ $ python3 main.py
 
 A simple workflow of command used to run SoIG with a Description.
 
-| Usage                                    | Description                                               |
-| -----------------------------------------| ----------------------------------------------------------|
-| `-h` , `--help`                          |  show this help message and exit.                         |
-| `-u` USERNAME , `--username` USERNAME    | username of account to scan.                              |
-| `-p` , `--postscrap`                     | scrape all uploaded images info.                          |
-| `-s` , `--savedata`                      | save data to file ( save profile pic, info , post info ). |
+| Usage                                 | Description                                               |
+| ------------------------------------- | --------------------------------------------------------- |
+| `-h` , `--help`                       | show this help message and exit.                          |
+| `-u` USERNAME , `--username` USERNAME | username of account to scan.                              |
+| `-p` , `--postscrap`                  | scrape all uploaded images info.                          |
+| `-s` , `--savedata`                   | save data to file ( save profile pic, info , post info ). |
 
 ## Contributing
 
