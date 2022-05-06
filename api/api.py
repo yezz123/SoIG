@@ -10,7 +10,6 @@ import collections
 import urllib.request
 from bs4 import BeautifulSoup
 
-import collections
 collections.Callable = collections.abc.Callable
 
 nu = "\033[0m"
