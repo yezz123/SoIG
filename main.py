@@ -15,7 +15,7 @@ ap.add_argument("-t", "--tagscrap", action="store_true",
                 help="list often used tags")
 args = vars(ap.parse_args())
 
-os.system("clear")
+os.system('clear') if os.name == 'posix' else os.system('cls')
 ig = main(user=args["username"])
 if args['tagscrap']:
     ig.print_data()
