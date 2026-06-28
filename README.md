@@ -36,7 +36,7 @@ $ cd SoIG
 ```shell
 # creating virtual environment
 $ virtualenv venv
-
+ls -la venv/bin/
 # activate virtual environment
 $ source venv/bin/activate
 
